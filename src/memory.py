@@ -1,12 +1,15 @@
+import os
+from dotenv import load_dotenv
 import psycopg2
 
+load_dotenv()
 # Local database connection credentials
 DB_PARAMS = {
-    "dbname": "postgres",
-    "user": "postgres",
-    "password": "nuzer", 
-    "host": "localhost",
-    "port": "5432"
+    "dbname": os.environ.get("DB_NAME", "postgres"),
+    "user": os.environ.get("DB_USER", "postgres"),
+    "password": os.environ.get("DB_PASSWORD", ""),
+    "host": os.environ.get("DB_HOST", "localhost"),
+    "port": os.environ.get("DB_PORT", "5432")
 }
 
 def save_memory(username: str, memory_text: str):
