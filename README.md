@@ -34,9 +34,9 @@ hawking_digital_twin/
 
 ## What this project actually does
 
-**Sounds like Hawking:** Instead of acting like a generic AI assistant, the prompt forces the model to be short, sharp, and witty—matching how Professor Hawking actually spoke using his voice synthesizer. It also handles inline math formulas ($E=mc^2$) smoothly without breaking the layout.
-**Remembers you across sessions:** We split the data up. Academic papers and books are handled by the ChromaDB vector setup for facts, but your personal info (like your name or what you are studying) gets pulled out in the background and saved into a local PostgreSQL database so it remembers you next time you log in.
-**Doesn't crash when API keys run out:** Since the free tier of the Gemini API has strict daily project limits, the app is built to automatically skip a key if it hits a `429 Quota Exhausted` error. It will pop up a quick warning on the screen and seamlessly swap to the next working key in your list without crashing your chat session.
+* **Sounds like Hawking:** Instead of acting like a generic AI assistant, the prompt forces the model to be short, sharp, and witty—matching how Professor Hawking actually spoke using his voice synthesizer. It also handles inline math formulas ($E=mc^2$) smoothly without breaking the layout.
+* **Remembers you across sessions:** We split the data up. Academic papers and books are handled by the ChromaDB vector setup for facts, but your personal info (like your name or what you are studying) gets pulled out in the background and saved into a local PostgreSQL database so it remembers you next time you log in.
+* **Doesn't crash when API keys run out:** Since the free tier of the Gemini API has strict daily project limits, the app is built to automatically skip a key if it hits a `429 Quota Exhausted` error. It will pop up a quick warning on the screen and seamlessly swap to the next working key in your list without crashing your chat session.
 
 ## What is in the submission folder
 
