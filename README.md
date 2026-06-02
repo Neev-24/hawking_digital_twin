@@ -28,7 +28,7 @@ hawking_digital_twin/
     ├── ingester.py       # Document parsing & vector embedding script
     ├── memory.py         # PostgreSQL database adapter
     └── chroma_db/        # Persisted vector database index
-
+```
 
 ---
 
