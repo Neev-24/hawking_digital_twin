@@ -10,8 +10,6 @@ chromadb
 sentence-transformers
 torch
 torchvision
-pydantic==1.10.15
-sentencepiece
 
 pypdf
 
