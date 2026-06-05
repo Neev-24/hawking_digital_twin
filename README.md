@@ -1,6 +1,7 @@
 # 🌌 Professor Stephen Hawking — Digital Twin Interface
 ### AIMS DTU Summer Project 2026
 🔗 Live Application: https://hawkingdigitaltwin.streamlit.app/
+
 An advanced, context-aware Digital Twin agent of Professor Stephen Hawking. This project implements a modern Retrieval-Augmented Generation (RAG) pipeline combined with a persistent PostgreSQL relational storage layer to achieve high-fidelity persona consistency and cross-session memory tracking.
 
 ---
