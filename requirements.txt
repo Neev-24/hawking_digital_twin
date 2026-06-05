@@ -8,3 +8,7 @@ streamlit
 psycopg2-binary
 langchain-text-splitters
 sentence-transformers
+torch
+torchvision
+pydantic==1.10.15
+sentencepiece
